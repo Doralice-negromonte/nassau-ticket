@@ -1,0 +1,27 @@
+nassauTickets
+
+## descrição;
+
+## objetivo;
+
+## tecnologias utilizadas;
+
+## arquitetura ou visão geral do sistema;
+
+## instruções de instalação;
+
+## instruções de execução;
+
+## informações necessárias para configuração;
+
+## Membros (identificação e papéis dos membros);
+
+## informações sobre branches;
+
+## demais informações necessárias para utilização do sistema.
+
+## O que foi rodado dentro da pasta ``backend``
+npm init -y
+npm install express sequelize mysql2 dotenv
+npm install --save-dev sequelize-cli
+npx sequelize-cli init (dentro da pasta ``src``)
