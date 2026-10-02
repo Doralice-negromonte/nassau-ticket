@@ -1,5 +1,23 @@
-**PS: FAZER ``NPM I`` QUANDO CLONAR PARA INSTALAR AS DEPENDEENCIAS JÁ ADICIONADAS NO PROJETO**
+**PS: FAZER _``NPM I``_ DENTRO DA PASTA _``FRONTEND``_ QUANDO CLONAR PARA INSTALAR AS DEPENDENCIAS JÁ ADICIONADAS NO PROJETO**
 
+**PS2: TUDO QUE FOI INSTALADO NO MOMENTO E NÃO DEVE ESTAR NO GITHUB FOI ADICIONADO EM _``.GITIGNORE``_**
+
+**PS3: USAR _``IONIC SERVE``_ DENTRO DA PASTA _``FRONTEND``_ PARA VER AS TELAS**
+
+## ROTAS E TELAS
+- Comandos utilizados
+1. ionic generate page inicio
+2. ionic generate page emitir-senha
+3. ionic generate page login-atendente
+
+                       INICIO
+                         │
+              ┌──────────┴──────────┐
+              │                     │
+              ▼                     ▼
+       SOLICITAR SENHA          FAZER LOGIN
+
+#
 #
 nassauTickets
 
@@ -23,8 +41,5 @@ nassauTickets
 
 ## demais informações necessárias para utilização do sistema.
 
-## O que foi rodado dentro da pasta ``backend``
-npm init -y
-npm install express sequelize mysql2 dotenv
-npm install --save-dev sequelize-cli
-npx sequelize-cli init (dentro da pasta ``src``)
+
+  
