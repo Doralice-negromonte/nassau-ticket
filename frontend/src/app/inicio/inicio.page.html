@@ -1,24 +1,26 @@
 <ion-content>
 
   <div class="container">
+    <div class="intro">
+      <ion-icon name="flask"></ion-icon>
 
-    <h1>nassauTickets</h1>
+      <h1>nassau<span>Tickets</span></h1>
 
-    <h3>Laboratório de Análises Clínicas</h3> 
-    <p>Seu atendimento, mais simples e organizado.</p>
+      <h3>Laboratório de Análises Clínicas</h3>
+      <p>Seu atendimento, mais simples e organizado.</p>
+    </div>
 
-    <ion-button
-      expand="block"
-      routerLink="/emitir-senha">
-      Solicitar senha
-    </ion-button>
+    <div class="actions">
+      <ion-button routerLink="/emitir-senha">
+        Solicitar senha
+      </ion-button>
 
-    <ion-button
-      expand="block"
-      fill="outline"
-      routerLink="/login-atendente">
-      Fazer login
-    </ion-button>
+      <ion-button
+        fill="outline"
+        routerLink="/login-atendente">
+        Fazer login
+      </ion-button>
+    </div>
 
   </div>
 
